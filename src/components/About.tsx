@@ -63,13 +63,15 @@ export function About() {
 
               {/* AI & Productivity Highlight Banner */}
               <div className="mt-8 pt-6 border-t border-slate-200 dark:border-white/[0.08]">
-                <div className="flex items-start gap-3.5 p-4 rounded-2xl bg-purple-50 dark:bg-gradient-to-r dark:from-purple-500/10 dark:via-indigo-500/10 dark:to-sky-500/10 border border-purple-200 dark:border-purple-500/20">
-                  <BrainCircuit className="w-5 h-5 text-purple-600 dark:text-purple-400 shrink-0 mt-0.5" />
+                <div className="flex items-start gap-3.5 p-4 sm:p-5 rounded-2xl bg-purple-50/80 dark:bg-surface-200/90 border border-purple-200/80 dark:border-purple-500/30 backdrop-blur-md">
+                  <div className="p-2.5 rounded-xl bg-purple-100 dark:bg-purple-500/15 border border-purple-200 dark:border-purple-500/30 text-purple-600 dark:text-purple-300 shrink-0">
+                    <BrainCircuit className="w-5 h-5" />
+                  </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-purple-900 dark:text-purple-200">
+                    <h4 className="text-sm font-bold text-purple-950 dark:text-purple-200 tracking-tight">
                       AI-Assisted Development Multiplier
                     </h4>
-                    <p className="text-xs text-purple-800/80 dark:text-slate-300 mt-1 leading-relaxed">
+                    <p className="text-xs text-purple-900/80 dark:text-slate-300 mt-1 leading-relaxed">
                       Proficient in leveraging GitHub Copilot, Cursor AI, and ChatGPT to accelerate boilerplate development, generate robust test suites, and deliver production features 2x faster.
                     </p>
                   </div>

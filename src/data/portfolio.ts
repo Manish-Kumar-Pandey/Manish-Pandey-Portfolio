@@ -123,7 +123,7 @@ export const portfolioData: PortfolioData = {
     isOpenToWork: true,
     availabilityStatus: "Open to Opportunities",
     yearsOfExperience: "4+",
-    resumeUrl: "/Manish_Kumar_Pandey_Resume.pdf",
+    resumeUrl: "/Manish_Pandey_Resume_Nov_26.pdf",
     avatarUrl: "/images/avatar.png",
   },
   seo: {
@@ -152,21 +152,21 @@ export const portfolioData: PortfolioData = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/manishpandey-dev",
+      url: "https://github.com/Manish-Kumar-Pandey",
       icon: "Github",
-      username: "manishpandey-dev",
+      username: "Manish-Kumar-Pandey",
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/manishkumar-pandey",
+      url: "https://www.linkedin.com/in/manishkpandey2001/",
       icon: "Linkedin",
-      username: "manishkumar-pandey",
+      username: "manishkpandey2001",
     },
     {
       name: "LeetCode",
-      url: "https://leetcode.com/manishpandey-dev",
+      url: "https://leetcode.com/u/manishkpandey2001/",
       icon: "Code2",
-      username: "manishpandey-dev",
+      username: "manishkpandey2001",
     },
     {
       name: "Email",
