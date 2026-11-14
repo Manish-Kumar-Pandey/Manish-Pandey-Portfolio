@@ -117,7 +117,7 @@ export function Navbar() {
 
             <a
               href={personal.resumeUrl}
-              download="Manish_Pandey_Resume.pdf"
+              download="Manish_Kumar_Pandey_Resume_Jan27.pdf"
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold tracking-wide text-slate-700 dark:text-slate-200 bg-white dark:bg-surface-100/90 hover:bg-slate-50 dark:hover:bg-surface-50 border border-slate-200 dark:border-white/10 hover:border-sky-500/40 hover:text-sky-600 dark:hover:text-sky-400 transition-all duration-300 shadow-sm"
             >
               <FileDown className="w-3.5 h-3.5 text-sky-500 dark:text-sky-400" />
@@ -143,7 +143,7 @@ export function Navbar() {
 
             <a
               href={personal.resumeUrl}
-              download="Manish_Pandey_Resume.pdf"
+              download="Manish_Kumar_Pandey_Resume_Jan27.pdf"
               aria-label="Download resume"
               className="p-2 rounded-lg text-slate-700 dark:text-slate-300 bg-slate-100 dark:bg-surface-100 border border-slate-200 dark:border-white/5"
             >
@@ -198,7 +198,7 @@ export function Navbar() {
             <div className="pt-3 mt-2 border-t border-slate-200 dark:border-white/10 flex flex-col gap-2">
               <a
                 href={personal.resumeUrl}
-                download="Manish_Pandey_Resume.pdf"
+                download="Manish_Kumar_Pandey_Resume_Jan27.pdf"
                 className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-surface-50 border border-slate-200 dark:border-white/10"
               >
                 <FileDown className="w-4 h-4 text-sky-500 dark:text-sky-400" />

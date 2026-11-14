@@ -123,7 +123,7 @@ export const portfolioData: PortfolioData = {
     isOpenToWork: true,
     availabilityStatus: "Open to Opportunities",
     yearsOfExperience: "4+",
-    resumeUrl: "/Manish_Pandey_Resume_Nov_26.pdf",
+    resumeUrl: "/Manish_Kumar_Pandey_Resume_Jan27.pdf",
     avatarUrl: "/images/avatar.png",
   },
   seo: {
