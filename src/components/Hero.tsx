@@ -132,8 +132,7 @@ export function Hero() {
 
               <a
                 href={personal.resumeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                download="Manish_Pandey_Resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-slate-800 dark:text-slate-200 bg-white dark:bg-surface-100 hover:bg-slate-50 dark:hover:bg-surface-50 border border-slate-200 dark:border-white/10 hover:border-sky-500/40 hover:text-sky-600 dark:hover:text-white transition-all duration-300 shadow-sm hover:-translate-y-0.5"
               >
                 <FileDown className="w-4 h-4 text-sky-500 dark:text-sky-400" />
