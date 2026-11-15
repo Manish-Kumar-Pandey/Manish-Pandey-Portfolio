@@ -42,7 +42,7 @@ export interface ProjectItem {
   title: string;
   tagline: string;
   description: string;
-  category: "Enterprise Application" | "Event Platform" | "Internal Tool";
+  category: "Enterprise Application" | "Event Platform" | "Internal Tool" | "AI & SaaS Platform" | string;
   technologies: string[];
   keyContributions: string[];
   isPrivate: boolean;
@@ -50,6 +50,12 @@ export interface ProjectItem {
   featured: boolean;
   impactMetric?: string;
   color: string;
+  liveUrl?: string;
+  githubUrl?: string;
+  demoCredentials?: {
+    email?: string;
+    password?: string;
+  };
 }
 
 export interface EducationItem {
@@ -390,6 +396,48 @@ export const portfolioData: PortfolioData = {
     },
   ],
   projects: [
+    {
+      id: "knowledgeai-rag-system",
+      title: "KnowledgeAI",
+      tagline: "Enterprise Knowledge Base AI Assistant & Multi-Tenant RAG System",
+      description:
+        "A production-grade, multi-tenant RAG SaaS platform engineered to eliminate enterprise hallucination, context drift, and data isolation at scale. Features hybrid search combining pgvector dense embeddings with sparse BM25 keyword search, Reciprocal Rank Fusion, and real-time streaming citations.",
+      category: "AI & SaaS Platform",
+      technologies: [
+        "Next.js 15 (App Router)",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL 16",
+        "pgvector (HNSW)",
+        "Cloudflare Workers AI",
+        "Llama 3.1 8B",
+        "Tailwind CSS",
+        "TanStack Query",
+        "Zustand",
+        "Supabase Storage",
+        "Row-Level Security (RLS)",
+      ],
+      keyContributions: [
+        "Multi-Format Ingestion Pipeline: Ingests PDF, DOCX, TXT, and Markdown (up to 25MB) with SHA-256 deduplication and automatic document versioning.",
+        "Hybrid Search Architecture: Combines pgvector dense cosine similarity (768-dim embeddings via BGE-base) with PostgreSQL sparse BM25-style full-text search.",
+        "Reciprocal Rank Fusion (RRF, k=60): Merges dense vector and sparse keyword rankings to eliminate vocabulary mismatch on enterprise acronyms (e.g., AES-256, P1 SOP).",
+        "Streaming & Verifiable Citations: Delivers real-time token streaming via Server-Sent Events (SSE) with interactive citation chips linking directly to source documents and page numbers.",
+        "Tenant Data Isolation (RLS): Enforces session-scoped PostgreSQL Row-Level Security (app.current_org_id) with strict prompt-injection guardrails for untrusted context.",
+        "Empirical Retrieval Telemetry: Built-in benchmarking dashboard tracking Mean Reciprocal Rank (MRR), Precision@K, and retrieval latency metrics.",
+      ],
+      isPrivate: false,
+      statusBadge: "Live Production SaaS",
+      featured: true,
+      impactMetric: "Zero Data Leakage (RLS) • Hybrid Search (RRF k=60) • Real-time SSE Citations",
+      color: "from-sky-500/20 via-cyan-500/10 to-indigo-500/20",
+      liveUrl: "https://knowledgeai-blush.vercel.app/",
+      githubUrl: "https://github.com/Manish-Kumar-Pandey/knowledgeai",
+      demoCredentials: {
+        email: "admin.kai@yopmail.com",
+        password: "Password123!",
+      },
+    },
     {
       id: "namba-event-platform",
       title: "NAMBA",
